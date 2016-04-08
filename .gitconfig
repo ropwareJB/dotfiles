@@ -1,0 +1,16 @@
+[user]
+	email = joshua.brown@au.ey.com
+	name = Montycarlo
+[push]
+	default = simple
+[color]
+	ui = always
+	status = always
+	branch = always
+	diff = always
+	interactive = always
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+	modified = white

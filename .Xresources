@@ -1,0 +1,55 @@
+
+*cursorColor:                         #917154
+*colorIT:                             #E3AB8D
+*colorBD:                             #F0E5DF
+*colorUL:                             #cd546c
+*VT100.colorBDMode:                   true
+*VT100.colorBD:                       red
+*VT100.colorULMode:                   true
+*VT100.colorUL:                       magenta
+*VT100.veryBoldColors:                6
+
+
+*foreground:                          #eddcd3
+*background:                          #181512
+
+!black
+!*color0:     #393939
+URxvt*color0:     #7979A9
+URxvt*color8:     #AF875F
+!!red
+URxvt*color1:     #BF1E2D
+URxvt*color9:     #E7212A
+!!green
+!*color2:     #9DBA3A
+URxvt*color2:     #85c938
+URxvt*color10:    #A9C938
+!!yellow
+URxvt*color3:     #F5B915
+URxvt*color11:    #F7D325
+!!blue
+URxvt*color4:     #1CA1DB
+URxvt*color12:    #00AFDA
+!!magenta
+URxvt*color5:     #652F90
+URxvt*color13:    #894E9F
+!!cyan
+URxvt*color6:     #EA7D24
+URxvt*color14:    #F79321
+!!white
+URxvt*color7:     #E7E8E9
+URxvt*color15:    #F3F3F4
+
+! fonts
+!URxvt.font: -*-clean-medium-r-normal-*-15-*-*-*-*-*-*-*
+URxvt*scrollBar: false
+URxvt.font: xft:DejaVu Sans Mono for Powerline:style=Book:size=9
+URxvt.allow_bold: false
+
+! urls, and copy / paste
+URxvt.perl-ext-common: default,matcher,clipboard
+URxvt.url-launcher: /usr/bin/google-chrome-stable
+URxvt.matcher.button: 1
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
