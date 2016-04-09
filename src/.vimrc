@@ -7,6 +7,7 @@ set nu
 set ts=2
 set sts=2
 set sw=2
+set hlsearch
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='murmur'
@@ -17,7 +18,6 @@ set laststatus=2
 set background=dark
 colorscheme colorsbox-stnight
 
-set hlsearch
 
 "let g:vaxe_flow_target='web'
 let g:vaxe_flow_target='linux'
