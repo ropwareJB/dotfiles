@@ -1,3 +1,12 @@
 #!/bin/sh
+SRCDIR=src
 
-SOURCEFILES = 
+git submodule init
+git submodule update
+
+SRCFILES=$(ls -A $SRCDIR)
+
+for S in $SRCFILES
+do
+	cp -R $SRCDIR/$S ~/
+done
