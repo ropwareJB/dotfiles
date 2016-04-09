@@ -1,12 +1,11 @@
 #!/bin/sh
 SRCDIR=src
+exe() { echo "\$ $@" ; "$@" ; }
 
-git submodule init
-git submodule update
+exe git submodule init
+exe git submodule update
 
-SRCFILES=$(ls -A $SRCDIR)
-
-for S in $SRCFILES
+for S in $(ls -A $SRCDIR)
 do
-	cp -R $SRCDIR/$S ~/
+	exe cp -R $SRCDIR/$S ~/
 done
