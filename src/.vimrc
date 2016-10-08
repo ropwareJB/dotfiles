@@ -18,6 +18,8 @@ set laststatus=2
 set background=dark
 colorscheme colorsbox-stnight
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
 
 "let g:vaxe_flow_target='web'
 let g:vaxe_flow_target='linux'

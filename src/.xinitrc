@@ -32,7 +32,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 wmname LG3D
-conky &
 
 /bin/bash ~/lab/setup-workstation.sh
 slstatus &
