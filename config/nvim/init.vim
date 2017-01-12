@@ -23,6 +23,8 @@ let g:deoplete#enable_at_startup=1
 let base16colorspace=256
 let t_Co=256
 
+let $PATH = $PATH . ':' . expand('~/.local/bin')
+
 execute pathogen#infect()
 
 colorscheme base16-tomorrow
