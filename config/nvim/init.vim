@@ -13,18 +13,19 @@ set hlsearch
 set background=dark
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme='murmur'
+let g:airline_theme='jellybeans'
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+
 let g:vaxe_hxproj=1
 let g:deoplete#enable_at_startup=1
+
 let base16colorspace=256
 let t_Co=256
-" in case t_Co alone doesn't work, add this as well:
-"let &t_AB="\e[48;5;%dm"
-"let &t_AF="\e[38;5;%dm"
+
 execute pathogen#infect()
 
-"colorscheme colorsbox-stnight
-colorscheme Tomorrow-Night
+colorscheme base16-tomorrow
 
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
