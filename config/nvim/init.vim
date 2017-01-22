@@ -54,3 +54,14 @@ let g:haskell_indent_case = 2
 let g:haskell_indent_let = 4
 let g:haskell_indent_where = 6
 let g:haskell_indent_guard = 2
+
+
+" Vim-multiple-cursors plays nice with Deoplete
+" Called once right before you start selecting multiple cursors
+function! Multiple_cursors_before()
+  let g:deoplete#disable_auto_complete = 1
+endfunction
+" Called once only when the multiple selection is canceled (default <Esc>)
+function! Multiple_cursors_after()
+  let g:deoplete#disable_auto_complete = 0
+endfunction
