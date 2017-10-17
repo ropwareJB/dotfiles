@@ -1,0 +1,2 @@
+#!/bin/sh
+cat $1 | sed "s/, /\n/g" - | sed "s/Host: [^:]*[^:]: //i" - | sed "2d" - | sed "s/\//, /g" - | sed "\$d" -
