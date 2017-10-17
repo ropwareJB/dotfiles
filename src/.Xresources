@@ -3,48 +3,69 @@
 *colorIT:                             #E3AB8D
 *colorBD:                             #F0E5DF
 *colorUL:                             #cd546c
-*VT100.colorBDMode:                   true
-*VT100.colorBD:                       red
-*VT100.colorULMode:                   true
-*VT100.colorUL:                       magenta
-*VT100.veryBoldColors:                6
 
+URxvt*foreground: #eddcd3
+URxvt*background: #181512
+URxvt*transparent: true
+URxvt*shading: 30
 
-*foreground:                          #eddcd3
-*background:                          #181512
+!TomorrowNightBright
+#define t_background        #000000
+#define t_current_line      #2a2a2a
+#define t_selection      	#424242
+#define t_foreground      	#eaeaea
+#define t_comment	     	#969896
+#define t_red		     	#d54e53
+#define t_orange	     	#e78c45
+#define t_yellow        	#e7c547
+#define t_green	        	#b9ca4a
+#define t_aqua	        	#70c0b1
+#define t_blue	        	#7aa6da
+#define t_purple        	#c397d8
 
-!black
-!*color0:     #393939
-URxvt*color0:     #7979A9
-URxvt*color8:     #AF875F
-!!red
-URxvt*color1:     #BF1E2D
-URxvt*color9:     #E7212A
-!!green
-!*color2:     #9DBA3A
-URxvt*color2:     #85c938
-URxvt*color10:    #A9C938
-!!yellow
-URxvt*color3:     #F5B915
-URxvt*color11:    #F7D325
-!!blue
-URxvt*color4:     #1CA1DB
-URxvt*color12:    #00AFDA
-!!magenta
-URxvt*color5:     #652F90
-URxvt*color13:    #894E9F
-!!cyan
-URxvt*color6:     #EA7D24
-URxvt*color14:    #F79321
-!!white
-URxvt*color7:     #E7E8E9
-URxvt*color15:    #F3F3F4
+*.foreground:   t_foreground
+*.background:   t_background
+*.cursorColor:  #aeafad
+
+! Black / Grey
+*.color0:       #000000
+*.color8:       #666666
+
+! Red / Bright Red
+*.color1:       t_red
+*.color9:       #FF3334
+
+! Green + Bright Green
+*.color2:       #444444
+! t_green
+*.color10:      #222222
+! #9ec400
+
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:       t_orange
+*.color11:      t_yellow
+
+! Blue + Bright Blue
+*.color4:       t_blue
+*.color12:      t_blue
+
+! Magenta (Purple) + Bright Magenta
+*.color5:       t_purple
+*.color13:      #b777e0
+
+! Cyan (Aqua) + Bright Cyan
+*.color6:       t_aqua
+*.color14:      #54ced6
+
+! Light Grey (Selection) + White (Current Line)
+*.color7:       t_selection
+*.color15:      t_current_line
 
 ! fonts
-!URxvt.font: -*-clean-medium-r-normal-*-15-*-*-*-*-*-*-*
 URxvt*scrollBar: false
-URxvt.font: xft:DejaVu Sans Mono for Powerline:style=Book:size=9
-URxvt.allow_bold: false
+URxvt.font: xft:DejaVuSansMono Nerd Font:style=Book:size=9
+URxvt.boldFont: xft:DejaVuSansMono Nerd Font:style=Book:size=9
+URxvt.allow_bold: true
 
 ! urls, and copy / paste
 URxvt.perl-ext-common: default,matcher,clipboard
@@ -53,3 +74,4 @@ URxvt.matcher.button: 1
 URxvt.iso14755: False
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.lineSpace: 1
