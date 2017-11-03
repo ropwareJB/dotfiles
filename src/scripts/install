@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pacman -S tree
+
+pacman -S texlive-core texlive-latexextra texlive-fontsextra pandoc
