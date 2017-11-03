@@ -1,0 +1,3 @@
+#!/bin/sh
+
+openssl s_client -connect $1:$2 -showcerts < /dev/null | tee cert-p$2-$1
