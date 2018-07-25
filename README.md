@@ -2,8 +2,7 @@
 My dotfiles!  
 
 ```
-git submodule init
-git submodule update
+git clone --recursive git@github.com:Montycarlo/dotfiles.git
 ```
 
 
