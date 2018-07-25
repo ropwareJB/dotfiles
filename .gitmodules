@@ -19,3 +19,9 @@
 [submodule "src/.vim/bundle/vim-multiple-cursors"]
 	path = src/.vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "src/.vim/bundle/vim-obsession"]
+	path = src/.vim/bundle/vim-obsession
+	url = https://github.com/tpope/vim-obsession.git
+[submodule "src/.vim/bundle/yats.vim"]
+	path = src/.vim/bundle/yats.vim
+	url = https://github.com/HerringtonDarkholme/yats.vim.git

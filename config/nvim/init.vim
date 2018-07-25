@@ -1,12 +1,11 @@
 syntax on
-filetype plugin indent on
+" filetype plugin indent on
 let g:python_host_prog='/usr/bin/python2'
 
 set nu
 set ts=2
 set sts=2
 set sw=2
-set expandtab
 set mouse-=a
 set laststatus=2
 set hlsearch
@@ -42,6 +41,7 @@ nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
+vnoremap // y/<C-R>"<CR>
 
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
 let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
