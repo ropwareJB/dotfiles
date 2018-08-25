@@ -32,14 +32,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 wmname LG3D
+vmware-user
 
-/bin/bash ~/lab/setup-workstation.sh
-slstatus &
+#slstatus &
+.prog/status/status &
 
-modprobe vboxdrv
-modprobe vboxnetadp
-modprobe vboxnetflt
-modprobe vboxpci
-/usr/bin/VBoxClient-all
-
-dwm 2> ~/.dwm.log
+.prog/dwm/bin/dwm 2> ~/.logs/dwm.log
