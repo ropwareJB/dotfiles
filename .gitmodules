@@ -37,3 +37,6 @@
 [submodule "src/.vim/bundle/vim-ps1"]
 	path = src/.vim/bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
+[submodule "src/.vim/bundle/haskell-vim"]
+	path = src/.vim/bundle/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
