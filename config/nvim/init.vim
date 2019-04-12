@@ -1,5 +1,5 @@
 syntax on
-" filetype plugin indent on
+filetype plugin on
 let g:python_host_prog='/usr/bin/python2'
 
 set nu
@@ -10,6 +10,7 @@ set mouse-=a
 set laststatus=2
 set hlsearch
 set background=dark
+set list
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='jellybeans'
@@ -42,19 +43,6 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 vnoremap // y/<C-R>"<CR>
-
-let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
-let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
-let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`
-let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
-let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
-let g:haskell_enable_static_pointers = 1  " to enable highlighting of `static`
-let g:haskell_indent_if = 3
-let g:haskell_indent_case = 2
-let g:haskell_indent_let = 4
-let g:haskell_indent_where = 6
-let g:haskell_indent_guard = 2
-
 
 " Vim-multiple-cursors plays nice with Deoplete
 " Called once right before you start selecting multiple cursors
