@@ -1,4 +1,4 @@
-set expandtab
+setlocal shiftwidth=2 softtabstop=2 expandtab
 
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
 let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
