@@ -68,6 +68,12 @@ let g:haskell_indent_guard = 2
 " let g:elm_format_fail_silently = 0
 " let g:elm_setup_keybindings = 1
 
+" Show hidden files in NerdTree
+let NERDTreeShowHidden=1
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-f> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
 " Open the existing NERDTree on each new tab.
