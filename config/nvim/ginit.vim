@@ -3,6 +3,9 @@ if exists('g:GtkGuiLoaded')
 	call rpcnotify(1, 'Gui', 'Font', 'Fira Code 9')
 	call rpcnotify(1, 'Gui', 'Option', 'Tabline', 0)
 	let g:GuiInternalClipboard = 1
+	" Use system clipboard for normal yank + paste commands,
+	" as Ctrl + Shift + V etc don't seem to work.
+	set clipboard=unnamed
 endif
 
 if g:os == "Darwin"
