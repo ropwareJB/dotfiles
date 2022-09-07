@@ -14,6 +14,13 @@ set background=dark
 set list                             " Show tabs vs spaces
 set signcolumn=number                " Merge the gutter and number cols
 set cursorcolumn                     " highlight the current column
+"scrolling begins at 5th line from top or bottom
+set scrolloff=5
+" ignore case in searching, then if mixed case in search then don't ignore it
+set ignorecase
+set smartcase
+" Enable relative line numbers
+" set number relativenumber
 highlight cursorcolumn guibg=#282828
 
 let g:airline_powerline_fonts = 1
