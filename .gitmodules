@@ -37,3 +37,6 @@
 [submodule "src/.vim/bundle/haskell-vim"]
 	path = src/.vim/bundle/haskell-vim
 	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "xmonad"]
+	path = config/xmonad
+	url = https://github.com/ropwareJB/xmonad
