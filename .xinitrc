@@ -34,6 +34,7 @@ fi
 wmname LG3D
 
 #slstatus &
+feh --bg-fill --no-fehbg ~/.runtime/wallpaper.png
 
 vmware-user-suid-wrapper
 vmhgfs-fuse -o allow_other -o auto_unmount .host:/vmshare /media/sf_vmshare/

@@ -17,6 +17,11 @@ ln -s $(pwd)/src/vim/bundle ~/.config/nvim/bundle
 
 ### Arch Linux
 
+### Background
+```
+pacman -S feh
+```
+
 #### Fira Code
 https://github.com/tonsky/FiraCode/wiki/Installing
 
