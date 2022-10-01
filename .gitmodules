@@ -40,3 +40,6 @@
 [submodule "xmonad"]
 	path = config/xmonad
 	url = https://github.com/ropwareJB/xmonad
+[submodule "src/.vim/bundle/vim-devicons"]
+	path = src/.vim/bundle/vim-devicons
+	url = git@github.com:ryanoasis/vim-devicons.git
