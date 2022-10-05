@@ -11,6 +11,8 @@ git clone --recursive https://github.com/Montycarlo/dotfiles.git
 mkdir -p ~/config/nvim
 ln -s $(pwd)/config/nvim/init.vim ~/.config/nvim/init.vim
 ln -s $(pwd)/config/nvim/init-linux.vim ~/.config/nvim/init-linux.vim
+ln -s $(pwd)/config/nvim/init-osx.vim ~/.config/nvim/init-osx.vim
+ln -s $(pwd)/config/nvim/init-win.vim ~/.config/nvim/init-win.vim
 ln -s $(pwd)/config/nvim/ginit.vim ~/.config/nvim/ginit.vim
 ln -s $(pwd)/src/vim/bundle ~/.config/nvim/bundle
 ```

@@ -64,7 +64,7 @@ if !exists("g:os")
 endif
 
 if g:os == "Darwin"
-	
+	source init-osx.vim
 elseif g:os == "Linux"
 	source init-linux.vim
 elseif g:os == "Windows"
