@@ -2,7 +2,7 @@
 My dotfiles!
 
 ```
-git clone --recursive https://github.com/Montycarlo/dotfiles.git
+git clone --recursive https://github.com/ropwareJB/dotfiles.git
 ```
 
 ## Installation
