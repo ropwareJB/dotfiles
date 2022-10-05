@@ -75,5 +75,5 @@ if g:os == "Darwin"
 elseif g:os == "Linux"
 	source init-linux.vim
 elseif g:os == "Windows"
-
+	source init-win.vim
 endif
