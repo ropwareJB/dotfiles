@@ -8,11 +8,11 @@ if exists('g:GtkGuiLoaded')
 	set clipboard=unnamed
 endif
 
-if g:os == "Darwin"
-	set macligatures
-	set guifont=Fira\ Code:h12
-elseif g:os == "Linux"
-	" NOP
-elseif g:os == "Windows"
-	" NOP
-endif
+" if g:os == "Darwin"
+" 	set macligatures
+" 	set guifont=Fira\ Code:h12
+" elseif g:os == "Linux"
+" 	" NOP
+" elseif g:os == "Windows"
+" 	" NOP
+" endif
